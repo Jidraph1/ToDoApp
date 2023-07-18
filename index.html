@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="upper">
+        <div class="upper-inner">
+          <div
+            style="
+              color: white;
+              font-size: 30px;
+              font-weight: bold;
+              margin-bottom: 30px;
+              display: flex;
+              cursor: pointer;
+            justify-content: space-between;
+              
+            "
+          >
+            T O D O
+            <img src="./images/icon-sun.svg" style="width: 30px; height:30px;">
+          </div>
+          <form action="" class="inputform">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                padding: 2px;
+                background-color: rgb(80, 79, 79);
+                border-radius: 5px;
+              "
+            >
+              <div id="radio">
+                <input type="checkbox" name="" id="checkBox" />
+              </div>
+              <input
+                type="text"
+                name=""
+                id="newinput"
+                placeholder="Create a new todo"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="lower">
+        <div class="lower-inner"></div>
+      </div>
+      <div class="bottom" >
+        <div id="items-left">Tasks</div>
+        <button>
+          <div id="all-items">All</div>
+        </button>
+        <button>
+          <div id="active">Active</div>
+        </button>
+        <button>
+          <div id="completed">Completed</div>
+        </button>
+        <button>
+          <div id="clearStorage">Clear</div>
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
